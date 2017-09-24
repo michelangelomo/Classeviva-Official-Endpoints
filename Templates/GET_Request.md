@@ -5,31 +5,17 @@
 ## Description
 Enter description of resource
 
-
-***
-
 ## Required Header
 * Z-Dev-ApiKey
 * Z-Auth-Token
 * ...
 
-***
-
 ## Parameters
 - **type** _(required)_ — *type* is an example parameter which is required:
 - **active** _(required)_ — *active* is an example parameter which is *default:false*:
 
-***
-
 ## Response
 - **success** — Boolean value.
-
-***
-
-## Errors
-None
-
-***
 
 ## Example
 **Request**
