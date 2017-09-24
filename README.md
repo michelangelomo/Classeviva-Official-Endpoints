@@ -6,6 +6,8 @@ This repository provide the list of official Endpoints for Classeviva
 ## Libraries
 * Coming soon 👻
 
+## How to contribute
+If you want to contribute, please open a pull request using template file
 ***
 
 ## Endpoints
@@ -54,3 +56,5 @@ _API Url: <code>https://web.spaggiari.eu/rest/</code>_
 - **[<code>GET</code> v1/students/_{studentId}_/subjects]()**
 
 ### QR-Code
+##### Upload
+- **[<code>POST</code> tools/app/default/app_qrcode_token.php?a=aUPLIMG]()**
