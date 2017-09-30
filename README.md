@@ -14,7 +14,8 @@ If you want to contribute, please open a pull request using template file
 _API Url: <code>https://web.spaggiari.eu/rest/</code>_
 
 ## Request Header
-User-Agent: <code>zorro/1.0</code>
+- User-Agent: <code>zorro/1.0</code>
+- Z-Dev-Apikey: <code>+zorro+</code>
 ### Authentication
 - **[<code>POST</code> v1/auth/login]()**
 - **[<code>GET</code> v1/auth/avatar]()**
