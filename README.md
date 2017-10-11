@@ -20,7 +20,7 @@ _API Url: <code>https://web.spaggiari.eu/rest/</code>_
 _Warning: without these headers, the request will fail._
 
 ### Authentication
-- **[<code>POST</code> v1/auth/login]()**
+- **[<code>POST</code> v1/auth/login](Authentication/login.md)**
 - **[<code>GET</code> v1/auth/avatar]()**
 - **[<code>GET</code> v1/auth/status]()**
 - **[<code>GET</code> v1/auth/ticket]()**
