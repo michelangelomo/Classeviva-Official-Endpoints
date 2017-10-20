@@ -21,9 +21,9 @@ _Warning: without these headers, the request will fail._
 
 ### Authentication
 - **[<code>POST</code> v1/auth/login](Authentication/login.md)**
-- **[<code>GET</code> v1/auth/avatar]()**
-- **[<code>GET</code> v1/auth/status]()**
-- **[<code>GET</code> v1/auth/ticket]()**
+- **[<code>GET</code> v1/auth/avatar](Authentication/avatar.md)**
+- **[<code>GET</code> v1/auth/status](Authentication/status.md)**
+- **[<code>GET</code> v1/auth/ticket](Authentication/ticket.md)**
 
 ### User
 ##### Absence
