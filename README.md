@@ -56,7 +56,7 @@ _Warning: without these headers, the request will fail._
 - **[<code>GET</code> v1/students/_{studentId}_/lessons/_{start}_/_{end}_]()**
 ##### Notes
 - **[<code>GET</code> v1/students/_{studentId}_/notes/all]()**
-- **[<code>GET</code> v1/students/_{studentId}_/notes/type/_{type}_/read/_{note}_]()**
+- **[<code>POST</code> v1/students/_{studentId}_/notes/_{type}_/read/_{note}_]()**
 ##### Periods
 - **[<code>GET</code> v1/students/_{studentId}_/periods]()**
 ##### Subjects
