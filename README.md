@@ -63,8 +63,8 @@ _Warning: without these headers, the request will fail._
 - **[<code>GET</code> v1/students/_{studentId}_/subjects]()**
 ##### Documents
 - **[<code>POST</code> v1/students/_{studentId}_/documents]()**
-- **[<code>GET</code> v1/students/_{studentId}_/documents/check/_{hash}_]()**
-- **[<code>GET</code> v1/students/_{studentId}_/documents/read/_{hash}_]()**
+- **[<code>POST</code> v1/students/_{studentId}_/documents/check/_{hash}_]()**
+- **[<code>POST</code> v1/students/_{studentId}_/documents/read/_{hash}_]()**
 ### QR-Code
 ##### Upload
 - **[<code>POST</code> tools/app/default/app_qrcode_token.php?a=aUPLIMG]()**
