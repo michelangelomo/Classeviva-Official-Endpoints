@@ -34,4 +34,4 @@ This endpoint returns the raw binary content of a document
 endobj
 4 0 obj
 <</Filter /FlateDecode /Length 1264>>
-stream[...]```
+stream[...]
