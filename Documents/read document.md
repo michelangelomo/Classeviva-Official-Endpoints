@@ -1,67 +1,37 @@
-# Enter Resource Name
+# Document read
 
-    POST **endpoint name**
+    POST **rest/v1/students/{studentId}/documents/read/{hash}**
 
 ## Description
-Enter description of resource
+This endpoint returns the raw binary content of a document
 
 ## Required Header
 * Z-Dev-ApiKey
 * Z-Auth-Token
-* ...
+* User-Agent: zorro/1.0
+* Z-Auth-Token: token
 
 ## Parameters
-- **type** _(required)_ — *type* is an example parameter which is required:
-- **active** _(required)_ — *active* is an example parameter which is *default:false*:
-
-## Response
-- **success** — Boolean value.
+- **studentId** _(required)_ — your student id obtained with the login
+- **hash** _(required)_ — the hash code of the document
 
 ## Example
 **Request**
 
-    https://web.spaggiari.eu/rest/v1/students/{studentId}/noticeboard
+    https://web.spaggiari.eu/rest/v1/students/{studentId}/documents/read/{hash}
 
-**Return** __shortened response__
-``` json
-{
-	"items": [
-		{
-			"pubId": 799423,
-			"pubDT": "2017-09-24T17:09:45+02:00",
-			"readStatus": false,
-			"evtCode": "CF",
-			"cntId": 351708,
-			"cntValidFrom": "2017-09-24",
-			"cntValidTo": "2017-10-31",
-			"cntValidInRange": true,
-			"cntStatus": "active",
-			"cntTitle": "VACCINI E SCUOLA: COSA FARE ",
-			"cntCategory": "Scuola\/famiglia",
-			"cntHasChanged": false,
-			"cntHasAttach": true,
-			"needJoin": false,
-			"needReply": false,
-			"needFile": false
-		},
-		{
-			"pubId": 796212,
-			"pubDT": "2017-09-24T15:49:59+02:00",
-			"readStatus": false,
-			"evtCode": "CF",
-			"cntId": 351672,
-			"cntValidFrom": "2017-09-24",
-			"cntValidTo": "2017-09-30",
-			"cntValidInRange": true,
-			"cntStatus": "active",
-			"cntTitle": "VARIAZIONE ORARIO PROVVISORIO - LIEVI MODIFICHE",
-			"cntCategory": "Scuola\/famiglia",
-			"cntHasChanged": false,
-			"cntHasAttach": true,
-			"needJoin": false,
-			"needReply": false,
-			"needFile": false
-		},
-	]
-}
-```
+**Return**
+```%PDF-1.4
+%����
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/MediaBox [0 0 595.280 841.890]
+/TrimBox [0.000 0.000 595.280 841.890]
+/Resources 2 0 R
+/Group << /Type /Group /S /Transparency /CS /DeviceRGB >> 
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Filter /FlateDecode /Length 1264>>
+stream[...]```
