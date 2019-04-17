@@ -38,7 +38,7 @@ _Warning: without these headers, the request will fail._
 - **[<code>GET</code> v1/students/_{studentId}_/didactics/item/_{contentId}_]()**
 ##### Notice Board
 - **[<code>GET</code> v1/students/_{studentId}_/noticeboard]()**
-- **[<code>GET</code> v1/students/_{studentId}_/noticeboard/read/_{eventCode}_/_{pubId}_/101]()**
+- **[<code>POST</code> v1/students/_{studentId}_/noticeboard/read/_{eventCode}_/_{pubId}_/101]()**
 - **[<code>GET</code> v1/students/_{studentId}_/noticeboard/attach/_{eventCode}_/_{pubId}_/101]()**
 ##### Schoolbooks
 - **[<code>GET</code> v1/students/_{studentId}_/schoolbooks]()**
@@ -62,9 +62,9 @@ _Warning: without these headers, the request will fail._
 ##### Subjects
 - **[<code>GET</code> v1/students/_{studentId}_/subjects]()**
 ##### Documents
-- **[<code>POST</code> v1/students/_{studentId}_/documents]()**
-- **[<code>GET</code> v1/students/_{studentId}_/documents/check/_{hash}_]()**
-- **[<code>GET</code> v1/students/_{studentId}_/documents/read/_{hash}_]()**
+- **[<code>POST</code> v1/students/_{studentId}_/documents](Documents/documents.md)**
+- **[<code>POST</code> v1/students/_{studentId}_/documents/check/_{hash}_](Documents/check%20document.md)**
+- **[<code>POST</code> v1/students/_{studentId}_/documents/read/_{hash}_](Documents/read%20document.md)**
 ### QR-Code
 ##### Upload
 - **[<code>POST</code> tools/app/default/app_qrcode_token.php?a=aUPLIMG]()**
