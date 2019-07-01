@@ -49,7 +49,6 @@ _Warning: without these headers, the request will fail._
 - **[<code>GET</code> v1/students/_{studentId}_/cards]()**
 ##### Grades
 - **[<code>GET</code> v1/students/_{studentId}_/grades]()**
-- **[<code>GET</code> v1/students/_{studentId}_/grades/subject/_{subject}_]()**
 ##### Lessons
 - **[<code>GET</code> v1/students/_{studentId}_/lessons/today]()**
 - **[<code>GET</code> v1/students/_{studentId}_/lessons/_{day}_]()**
