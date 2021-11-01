@@ -12,7 +12,7 @@ Authentication on ClasseViva
 
 ## Body
 
-    {"ident":null","pass":"user_pass","uid":"user_id"}
+    {"ident":null,"pass":"user_pass","uid":"user_id"}
 
 ## Example
 **Request**
